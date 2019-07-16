@@ -1,11 +1,9 @@
-<!DOCTYPE html>
-<html>
-  <body>
-    <h1>
-      Hello World
-    </h1>
-    <p>
-      I'm hosted with GitHub Pages.
-    </p>
-  </body>
-</html>
+---
+# front matter tells Jekyll to process Liquid
+
+layout: default
+title: Home
+---
+
+<h1>{{ "Hello World!" | downcase }}</h1>
+
